@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:padding="4dp"
-        android:text="Save Street Children App"
+        android:text="HOME AND HOPE YOUTH INFORMATION SYSTEM"
         android:textAlignment="center"
         android:textColor="@color/best_bg"
         android:textSize="30dp"

@@ -58,7 +58,7 @@ public class HomeActivity extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
         WebSettings webSettings = webView.getSettings();
         webSettings.setDomStorageEnabled(true);
-        webView.loadUrl("https://savestreetchildren.000webhostapp.com/");
+        webView.loadUrl("https://impressa78.000webhostapp.com/index");
 
         webView.setOverScrollMode(WebView.OVER_SCROLL_NEVER);
 
@@ -160,11 +160,8 @@ public class HomeActivity extends AppCompatActivity {
                 {
                     Toast.makeText(HomeActivity.this, "Network Disconnected!", Toast.LENGTH_LONG).show();
                     errorTxt.setText("Network Disconnected!, Connect again & Reflesh");
-                }
-                else
-                {
-                    errorTxt.setText("Page Loading Failed!, Check Network & Reflesh");
-                }
+                
+                
 
                 errorImg.setVisibility(View.VISIBLE);
                 errorReflesh.setVisibility(View.VISIBLE);
@@ -176,6 +173,8 @@ public class HomeActivity extends AppCompatActivity {
                         webView.loadUrl(currentLink);
                     }
                 });
+                
+                }
             }
 
         });
